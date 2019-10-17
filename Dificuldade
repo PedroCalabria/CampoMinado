@@ -1,0 +1,28 @@
+/*
+Escola Politécnica de Pernambuco
+Engenharia da Computação
+27/09/2019
+Linguagem de Programação Orientada à objetos
+Parte 1
+Equipe:
+Gabriel Caminha
+Pedro Calábria
+*/
+
+package br.com.poli.CAMPOMINADO;
+
+public enum Dificuldade {
+	// Selecionar o tamanho da mapa para cada dificuldade e criar as dificuldades possiveis
+	FACIL(9), DIFICIL(16);
+	
+	private int valor;
+    Dificuldade(int k){
+        valor = k;
+    }
+    public int getValor(){
+        return valor;
+    }
+	public void setValor(int valor) {
+		this.valor = valor;
+	}
+}
