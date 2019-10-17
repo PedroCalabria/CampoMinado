@@ -1,0 +1,20 @@
+/*
+Escola Politécnica de Pernambuco
+Engenharia da Computação
+27/09/2019
+Linguagem de Programação Orientada à objetos
+Parte 1
+Equipe:
+Gabriel Caminha
+Pedro Calábria
+*/
+
+package br.com.poli.CAMPOMINADO;
+
+public class Jogador {
+	private String nome;
+	public Jogador(String nome) {
+		
+		this.nome = nome;
+	}
+}
